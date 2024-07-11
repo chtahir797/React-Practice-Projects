@@ -1,0 +1,112 @@
+.parent {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+}
+
+.main-heading h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.inputs {
+  margin-bottom: 20px;
+}
+
+.range {
+  margin-bottom: 10px;
+}
+
+.range input[type="range"] {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 8px;
+  border-radius: 5px;
+  background: #ddd;
+  outline: none;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+
+.range input[type="range"]:hover {
+  opacity: 1;
+}
+
+.range input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #4caf50;
+  cursor: pointer;
+}
+
+.range input[type="range"]::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #4caf50;
+  cursor: pointer;
+}
+
+.checkboxs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.checkboxs input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.checkboxs label {
+  font-size: 14px;
+  color: #555;
+}
+
+.randPass {
+  background: #f1f1f1;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 18px;
+  color: #333;
+  word-wrap: break-word;
+  margin-bottom: 10px;
+}
+
+.copy {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.copy:hover {
+  background-color: #45a049;
+}
+.popup-hide{
+  display: none;
+}
+.popup{
+  background-color: #45a049;
+  display: inline-block;
+  padding: 1rem 0.5rem;
+  border-radius: 0.5rem;
+  position: absolute;
+  top: 5%;
+  right: 5%;
+}
+
